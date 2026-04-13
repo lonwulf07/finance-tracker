@@ -29,7 +29,7 @@ function App() {
         atob(localStorage.getItem("token").split(".")[1]),
       );
       const anomalyResponse = await fetch(
-        `http://localhost:5001/api/anomalies/${userData.id}`,
+        `https://finance-tracker-28nk.onrender.com/api/anomalies/${userData.id}`,
       );
       const anomalyData = await anomalyResponse.json();
 
@@ -53,7 +53,7 @@ function App() {
         atob(localStorage.getItem("token").split(".")[1]),
       );
       const anomalyResponse = await fetch(
-        `http://localhost:5001/api/anomalies/${userData.id}`,
+        `https://finance-tracker-28nk.onrender.com/api/anomalies/${userData.id}`,
       );
       const anomalyData = await anomalyResponse.json();
 
@@ -75,7 +75,7 @@ function App() {
         atob(localStorage.getItem("token").split(".")[1]),
       );
       const anomalyResponse = await fetch(
-        `http://localhost:5001/api/anomalies/${userData.id}`,
+        `https://finance-tracker-28nk.onrender.com/api/anomalies/${userData.id}`,
       );
       const anomalyData = await anomalyResponse.json();
 
