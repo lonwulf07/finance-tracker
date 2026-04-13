@@ -1,0 +1,73 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  /* Vibrant, animated gradient background */
+  background: linear-gradient(-45deg, #ff3366, #ff9933, #20d2ff, #b066fe);
+  background-size: 400% 400%;
+  animation: gradientBG 15s ease infinite;
+  color: #222;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+@keyframes gradientBG {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+/* Glassmorphism card effect for a polished UI */
+.glass-card {
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-radius: 16px;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.15);
+  padding: 25px;
+  margin-bottom: 25px;
+  width: 100%;
+}
+
+/* Mobile responsive inputs */
+input,
+select {
+  width: 100%;
+  padding: 12px;
+  border: 2px solid #eee;
+  border-radius: 8px;
+  outline: none;
+  transition: border-color 0.3s ease;
+  font-size: 16px;
+}
+
+input:focus,
+select:focus {
+  border-color: #20d2ff;
+}
+
+/* Punchy Button */
+.btn-punchy {
+  background: linear-gradient(90deg, #ff3366, #ff9933);
+  color: white;
+  border: none;
+  padding: 14px 20px;
+  border-radius: 8px;
+  font-weight: bold;
+  font-size: 16px;
+  cursor: pointer;
+  width: 100%;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
