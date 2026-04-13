@@ -49,7 +49,7 @@ This repository is structured as a monorepo containing three distinct services. 
 
 ### 1. Clone the Repository
 ```bash
-git clone [https://github.com/your-username/finance-flow.git](https://github.com/your-username/finance-flow.git)
+git clone https://github.com/lonwulf07/finance-tracker.git
 cd finance-flow
 ```
 
