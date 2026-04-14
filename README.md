@@ -12,8 +12,8 @@
 
 ## 📸 Overview
 
-*(Add a screenshot of your beautiful Dark Mode/Glassmorphism UI here once deployed)*
-`![Dashboard Screenshot](/frontend/public/screenshot.png)`
+<img width="1920" height="931" alt="2026-04-14 11_57_04-" src="https://github.com/user-attachments/assets/d7608abf-a4e9-463c-af10-8b386d52aa80" />
+
 
 ## ✨ Core Features
 
