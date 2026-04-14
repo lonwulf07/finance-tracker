@@ -73,7 +73,7 @@ function ExpenseChart({ transactions }) {
                 />
               ))}
             </Pie>
-            <Tooltip formatter={(value) => `$${value}`} />
+            <Tooltip formatter={(value) => `${value}`} />
             <Legend />
           </PieChart>
         </ResponsiveContainer>

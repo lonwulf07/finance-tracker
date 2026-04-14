@@ -252,7 +252,12 @@ function App() {
                             color: t.type === "expense" ? "#FF3366" : "#00C49F",
                           }}
                         >
-                          {t.type === "expense" ? "-" : "+"}${t.amount}
+                          {t.type === "expense" ? "-" : "+"}₹{t.amount}
+                          {new Intl.NumberFormat("en-IN", {
+                            style: "currency",
+                            currency: "INR",
+                            maximumFractionDigits: 0,
+                          }).format(t.amount)}
                         </span>
                         <motion.button
                           whileHover={{

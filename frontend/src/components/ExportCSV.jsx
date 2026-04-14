@@ -5,7 +5,7 @@ function ExportCSV({ transactions }) {
       return;
     }
 
-    const headers = ["Date", "Description", "Category", "Type", "Amount"];
+    const headers = ["Date", "Description", "Category", "Type", "Amount(₹)"];
 
     const csvRows = transactions.map((t) => {
       const date = new Date(t.date).toLocaleDateString();
