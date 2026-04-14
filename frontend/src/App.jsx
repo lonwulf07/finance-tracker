@@ -252,7 +252,7 @@ function App() {
                             color: t.type === "expense" ? "#FF3366" : "#00C49F",
                           }}
                         >
-                          {t.type === "expense" ? "-" : "+"}₹{t.amount}
+                          {t.type === "expense" ? "-" : "+"}
                           {new Intl.NumberFormat("en-IN", {
                             style: "currency",
                             currency: "INR",
